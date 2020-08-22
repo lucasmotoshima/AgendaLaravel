@@ -44,7 +44,7 @@
 		<tr>
 			<td><?php echo e($res['id']); ?></td>
 			<td>
-				<a href="http://localhost/quikdev/filmes/public/detalhe/<?php echo e($res['id']); ?>">
+				<a href="detalhe/<?php echo e($res['id']); ?>">
 					<img src="https://image.tmdb.org/t/p/w500/<?php echo e($res['backdrop_path']); ?>" width='200'/>
 				</a> 
 			</td>

@@ -18,7 +18,7 @@ class FilmeController extends Controller
 		//=========================================================================================
 		if($request->input('nome')!=null){
 			$search = $request->input('nome');
-			$url 	= "https://api.themoviedb.org/3/search/movie?api_key=bad6760342e9866293716dd3a6a9e503&query=$search";
+			$url 	= "https://api.themoviedb.org/3/search/movie?api_key=bad6760342e9866293716dd3a6a9e503&language=pt-BR&query=$search";
 		}else{
 			$url 	= "https://api.themoviedb.org/4/list/1?page=1&api_key=bad6760342e9866293716dd3a6a9e503&sort_by=title.asc&language=pt-BR";
 		}
