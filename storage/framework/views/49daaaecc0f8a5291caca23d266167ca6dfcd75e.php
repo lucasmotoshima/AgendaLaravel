@@ -33,12 +33,12 @@
 
 	<table border="1"  style="margin: 0px 50px;">
 		<tr>
+			<th>#</th>
+			<th>Poster</th>
 			<th>Name</th>
-			<th>Overview</th>
-			<th>Release</th>
-			<th>Genre</th>
-			<th>Data Review</th>
-			<th>Gêneros</th>
+			<th>Review</th>
+			<th>Data review</th>
+			<th>Genres</th>
 		</tr>
 		<?php $__currentLoopData = $results; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $res): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 		<tr>
